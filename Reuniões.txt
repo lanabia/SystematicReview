@@ -1,0 +1,108 @@
+13/2/2017
+
+Projeto site UsabilityYa
+
+Design -> Development -> Evaluation -> (Impact, Usability)
+
+Evaluation
+Usability (antes, durante e depois do processo de desenvolvimento)
+qualitativo e quali-quantitativo
+experts
+Impacto / Experimentação
+Exemplos: cognitivo, emocional, psicomotor
+Efetividade
+o que pode usar aqui: correlação, análise de regressão
+modelo/estratégia/ … avaliação de impacto
+Atividades iniciais:
+ler artigos Ticianne
+ler artigos professor Jaime
+planejar
+
+Planejamento inicial:
+1. Estado da Arte
+2014-2015-2016 - Rev. Sist. Ticianne
+Estado da questão de pesquisa
+Publicação I - IHC
+
+2. Proposta (avaliação - impacto - interfaces multimodais - ? - pessoas que são cegas
+Modelo - replicado
+Estratégia - forma para realizar
+Método - metodologia
+
+3. Guideline para utilizar a proposta
+Publicação final
+
+Projeto de pesquisa do professor, cnpq do Chile: 2015-2018
+
+
+------------------------------------------
+23/2/2017
+
+procurar livro de “Experimental” em pt
+focar no quantitativo
+Adicionar uma validação no planejamento (4.)
+	validação mais simples
+	Proof of concept
+
+Atividades:
+marcar reunião com professora
+Fazer um rascunho do outline (temário) - estrutura da proposta
+ler o livro sobre Experimentos
+fazer (ou tentar fazer) a string de busca - iniciar 
+ler artigo [2014]
+passar esta pasta para o Dropbox
+
+
+--------------------------------
+7/4/2017
+
+Reunião no GREat
+Delineamento das etapas: Revisão Sistemática + Revisão Teórica + Proposta
+Videogame x game x interface
+
+
+
+
+Protocolo Tici:
+.1         Question Focus:
+The development and enhancement of cognitive skills in people who are blind has been highly demanded in the literature. Digital technology targeting this need is widely desired and demanded. There is also a need beyond the technology development. Usability studies of technology for people with visual disability are claimed and required for better understanding and adequate and pertinent use. This proposal is targeting this need and demand. We focus on Knowing and Interacting while Gaming for the Blind, KIGB, whose expected result is a multimodal videogame application for enhancing cognition in people with visual disabilities.
+ 
+1.2 Question Quality and Amplitude
+a) Problem: To identify appropriate approaches for developing mental models, cognitive spatial structures, and navigation skills in blind learners through videogames; as well as to verify wich are the most suitable approaches and technologies for multimodal and usability evaluation in this context.
+b) Questions:
+Q1 - What strategies have been used for the design of multimodal games for blind learners in order to enhance cognition?
+ 
+Q2 - What strategies have been used to evaluate usability and quality of multimodal games for blind learners?
+ 
+Q3 - What technologies have been used for the development of multimodal games for blind learners, in order to enhance cognition?
+ 
+* In this context, enhance cognition means to help Developing mental models, cognitive spatial structures, and navigation skills
+
+c) Keywords and Synonyms:
+·         Multimodal videogames
+·         Blind learners
+·         Mental Models
+·         Cognitive spatial structures
+·         Navigation Skills
+Multimodal evaluation methods
+
+----------------------------------------------------------
+dicas Jaime sobre bases de pesquisa
+[22:05, 25/4/2017] Jaime Sanchez: Principalmente tem dois indexações principais : 
+
+ISIWeb of Science (norteamericano)
+
+Scopus (europeo)                        
+[22:06, 25/4/2017] Jaime Sanchez: Pela qualidade ISI Web of Science e o mais respeitado                        
+[22:07, 25/4/2017] +55 85 9683-9362: entendi...                        
+[22:07, 25/4/2017] Jaime Sanchez: Então                        
+[22:08, 25/4/2017] Jaime Sanchez: E mais fácil publicar num journal scopus                        
+[22:08, 25/4/2017] Jaime Sanchez: É muito mais difícil publicar em um journal ISI                        
+[22:08, 25/4/2017] Jaime Sanchez: O Impact Factor nasceu do ISI                        
+[22:09, 25/4/2017] Jaime Sanchez: E hoje um paper num journal ISI e com alto impacto é ótimo                        
+[22:10, 25/4/2017] Jaime Sanchez: Cada área, disciplina do conhecimento, tem sua propia escada de Impact Factor                        
+[22:10, 25/4/2017] Jaime Sanchez: Computação é diferente ao neurociência, por exemplo                        
+[22:11, 25/4/2017] Jaime Sanchez: Para a computação um IF de 4.0 e topissímo                        
+[22:12, 25/4/2017] Jaime Sanchez: Para as neurociências isso é ridículo de baixo, para eles bom impacto e sobre 8.0
+
+

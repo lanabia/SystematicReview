@@ -1,0 +1,71 @@
+ÚLTIMA VERSÃO - 
+
+
+(
+	((evaluation OR method) AND (impact OR quality)) 
+	OR design OR development
+) 
+AND
+(
+	blind
+	OR "visually impaired"
+	OR "visual disability"
+)
+AND
+(
+	multimodal 
+	OR haptics
+	OR audio 
+	OR auditory
+) 
+AND
+(
+	(system OR application OR software)
+	OR
+	("I/O"  OR device OR technology)
+	OR 
+	(videogame OR game)
+)
+
+
+
+ NOVA string
+(
+	((evaluation OR method) AND (impact OR quality)) 
+	OR design OR development
+) 
+AND
+(
+	blind
+	OR "visually impaired"
+	OR "visual disability"
+)
+AND
+(
+	multimodal 
+	OR haptics
+	OR audio 
+	OR auditory
+) 
+AND
+(
+	(system OR application OR software) --- issopode trazef mts rtigos verificr!!!!
+	OR
+	("I/O"  OR device OR technology)
+)
+
+
+
+
+
+IEEE
+"Metadata":
+(
+	((("evaluation"OR"method") AND ("impact" OR "quality")) OR "design" OR "development")
+	AND
+	("blind" OR "eyes-free" OR "visually impaired" OR "visual disabilities")
+	AND
+	("multimodal" OR "hapitic" OR "audio" OR "auditory" OR "vibrotactile")
+	AND
+	(system OR device OR mobile OR application OR software OR "I/O" OR gadget OR technology OR (serious AND (videogame OR game)))
+)

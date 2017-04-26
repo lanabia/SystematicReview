@@ -1,0 +1,92 @@
+Petersen, K., Feldt, R., Mujtaba, S., Mattsson, M.: Systematic mapping studies in software engineering. In: EASE 2008, Proceedings of the 12th International Conference on Evaluation
+and Assessment in Software Engineering, University of Bari, Italy (2008)
+
+Kitchenham, B., Charters, S.: Guidelines for performing systematic literature reviews in software engineering. Technical report EBSE 2007–001, Keele University and Durham University Joint Report (2007)
+
+tool StArt to help the systematic review
+Fabbri, S., Hernandes, E., Di Thommazo, A., Belgamo, A., Zamboni, A., Silva, C.: Managing literature reviews information through visualization. In 14th International Conference on
+Enterprise Information Systems, ICEIS, Wroclaw, Poland, June 2012. Scitepress, Lisbon (2012)
+
+"Snowballing"
+
+Three Phases
+1. planning,
+2. conducting and 
+3. reporting the review
+
+
+-----------------------------------------------
+
+Categorização dos papers
+Category Description
+
+Validation Research: Techniques investigated are novel and have not yet been implemented in practice. Techniques used are for example experiments, i.e., work done in the lab. ------ investigar novas texnologias que ainda não foram implementadas na prática, somente feitos em laboratório
+
+
+Evaluation Research: Techniques are implemented in practice and an evaluation of the technique is conducted. That means, it is shown how the technique is implemented in practice (solution implementation) and what are the consequences of the implementation in terms of
+benefits and drawbacks (implementation evaluation). This also includes to identify problems in industry. ------ avaliação de uma técnica já consolidada. inclui problemas na indústria.
+
+
+Solution Proposal: A solution for a problem is proposed, the solution can be either novel or a significant extension of an existing technique. The potential benefits and the applicability of the solution is shown by a small example or a good line of argumentation. ------ Proposta para resolver um problema, pode ser nova ou modificada. Merece uma boa argumentação.
+
+
+Philosophical Papers: These papers sketch a new way of looking at existing things by structuring the field in form of a taxonomy or conceptual framework. ------- dão um novo olhar estruturando areas já estudadas, dando taxonomias ou frameworks conceituais.
+
+Opinion Papers:  These papers express the personal opinion of somebody whether a certain technique is good or bad, or how things should been done. They do not rely on related work and research methodologies. ----- expressa opinião se uma tecnologia é boa ou ruim. não confia em trabalhos relacionados ou metodologias de pesquisa.
+
+
+Experience Papers Experience papers explain on what and how something has been done in practice. It has to be the personal experience of the author. ---- contam uma experiência de uso na prática e como ocorreu. 
+
+
+---------------------------------------------
+ETAPAS
+
+
+The stages associated with planning the review are:
+􀁸 Identification of the need for a review (See Section 5.1).
+􀁸 Commissioning a review (See Section 5.2). - por out
+
+􀁸 Specifying the research question(s) (See Section 5.3).
+􀁸 Developing a review protocol (See Section 5.4).
+􀁸 Evaluating the review protocol (See Section 5.5).
+
+The stages associated with conducting the review are:
+􀁸 Identification of research (See Section 6.1).
+􀁸 Selection of primary studies (See Section 6.2).
+􀁸 Study quality assessment (See Section 6.3).
+􀁸 Data extraction and monitoring (See Section 6.4).
+􀁸 Data synthesis (See Section 6.5).
+
+The stages associated with reporting the review are:
+􀁸 Specifying dissemination mechanisms (See Section 7.1).
+􀁸 Formatting the main report (See Section 7.2).
+􀁸 Evaluating the report (See Section 7.3).
+
+
+
+----------------------
+String Tici
+
+(
+	((evaluation AND (usability OR quality)) OR design OR development)
+	AND
+	(serious AND (videogame OR game))
+)
+AND
+(
+	("blind learners" OR (("eyes-free" OR "visually impaired" OR blind) AND (education OR learning)))
+	AND
+	(Multimodal OR hapitic OR audio OR auditory OR vibrotactile OR device OR 'I/O' OR gadget OR technology)
+	AND
+	(cognition OR cognitve spatial structure OR navigation skills OR mental map OR walking simulation)
+)
+
+----------------------
+String Lana
+
+1. Is the impact evaluated after designing and developing multimodal systems for peaple who are blind?
+2. What are the most frequently applied impact evaluation methods on multimodal interfaces for peaple who are blind, and in what study context areas?
+3. In which study context disciplines are applyed these impact evaluation methods?
+4. What type of impact are addressed in these studies context disciplines?
+
+

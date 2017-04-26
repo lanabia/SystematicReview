@@ -1,0 +1,372 @@
+\documentclass{sigchi}
+
+% Use this section to set the ACM copyright statement (e.g. for
+% preprints). Consult the conference website for the camera-ready
+% copyright statement.
+
+% Copyright
+\CopyrightYear{2016}
+%\setcopyright{acmcopyright}
+\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+% DOI
+%\doi{http://dx.doi.org/10.475/123_4}
+% ISBN
+%\isbn{123-4567-24-567/08/06}
+%Conference
+%\conferenceinfo{CHI'16,}{May 07--12, 2016, San Jose, CA, USA}
+%Price
+%\acmPrice{\$15.00}
+
+% Use this command to override the default ACM copyright statement
+% (e.g. for preprints). Consult the conference website for the
+% camera-ready copyright statement.
+
+%% HOW TO OVERRIDE THE DEFAULT COPYRIGHT STRIP --
+%% Please note you need to make sure the copy for your specific
+%% license is used here!
+%\toappear{ Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. IHC'16, Brazilian Symposium on Human Factors in Computing Systems. October 4-7, 2016, São Paulo, SP, Brazil. Copyright 2016 SBC. ISBN XXX-XX-XXXX-XXX-X (online).}
+
+% Arabic page numbers for submission. Remove this line to eliminate
+% page numbers for the camera ready copy
+% \pagenumbering{arabic}
+
+% Load basic packages
+\usepackage{balance}       % to better equalize the last page
+\usepackage{graphics}      % for EPS, load graphicx instead 
+\usepackage{graphicx}
+
+\usepackage[T1]{fontenc}   % for umlauts and other diaeresis
+\usepackage{txfonts}
+\usepackage{mathptmx}
+\usepackage[pdflang={en-US},pdftex]{hyperref}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{textcomp}
+
+%%%% Adicionados
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{todonotes}
+\usepackage{float}
+%%%%
+
+
+% Some optional stuff you might like/need.
+\usepackage{microtype}        % Improved Tracking and Kerning
+% \usepackage[all]{hypcap}    % Fixes bug in hyperref caption linking
+\usepackage{ccicons}          % Cite your images correctly!
+\usepackage[utf8]{inputenc} % for a UTF8 editor only
+
+% If you want to use todo notes, marginpars etc. during creation of
+% your draft document, you have to enable the "chi_draft" option for
+% the document class. To do this, change the very first line to:
+% "\documentclass[chi_draft]{sigchi}". You can then place todo notes
+% by using the "\todo{...}"  command. Make sure to disable the draft
+% option again before submitting your final document.
+% Paper metadata (use plain text, for PDF inclusion and later
+% re-using, if desired).  Use \emtpyauthor when submitting for review
+% so you remain anonymous.
+\def\plaintitle{Protocol for a Secondary Study in Impact Evaluation for Multimodal Interfaces for People Who Are Blind}
+\def\plainauthor{Lana Beatriz Medeiros de Mesquisa}
+\def\emptyauthor{}
+\def\plainkeywords{Impact Evaluation; Multimodal interfaces; Blind people}
+\def\plaingeneralterms{Documentation, Standardization}
+
+% llt: Define a global style for URLs, rather that the default one
+\makeatletter
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{
+    \def\UrlFont{\sf}
+  }{
+    \def\UrlFont{\small\bf\ttfamily}
+  }}
+\makeatother
+\urlstyle{leo}
+
+% To make various LaTeX processors do the right thing with page size.
+\def\pprw{8.5in}
+\def\pprh{11in}
+\special{papersize=\pprw,\pprh}
+\setlength{\paperwidth}{\pprw}
+\setlength{\paperheight}{\pprh}
+\setlength{\pdfpagewidth}{\pprw}
+\setlength{\pdfpageheight}{\pprh}
+
+% Make sure hyperref comes last of your loaded packages, to give it a
+% fighting chance of not being over-written, since its job is to
+% redefine many LaTeX commands.
+\definecolor{linkColor}{RGB}{6,125,233}
+\hypersetup{%
+  pdftitle={\plaintitle},
+% Use \plainauthor for final version.
+%  pdfauthor={\plainauthor},
+  pdfauthor={\emptyauthor},
+  pdfkeywords={\plainkeywords},
+  pdfdisplaydoctitle=true, % For Accessibility
+  bookmarksnumbered,
+  pdfstartview={FitH},
+  colorlinks,
+  citecolor=black,
+  filecolor=black,
+  linkcolor=black,
+  urlcolor=linkColor,
+  breaklinks=true,
+  hypertexnames=false
+}
+
+% create a shortcut to typeset table headings
+% \newcommand\tabhead[1]{\small\textbf{#1}}
+
+% End of preamble. Here it comes the document.
+\begin{document}
+
+\title{\plaintitle}
+
+\numberofauthors{1}
+\author{%
+  \alignauthor{Lana B. Mesquita\\
+    \affaddr{Grupo de Redes de Computadores, Engenharia de Software e Sistemas (GREat) \\ Mestrado e Doutorado em Ciência da Computação (MDCC) \\ Universidade Federal do Ceará}\\
+    \affaddr{Fortaleza, Brasil}\\
+    \email{lanamesquita@great.ufc.br}\\}
+}
+
+\maketitle
+
+\begin{abstract}
+%  The...
+\end{abstract}
+
+%\category{H.5.m.}{Information Interfaces and Presentation
+%  (e.g. HCI)}{Miscellaneous} \category{See
+%  \url{http://acm.org/about/class/1998/} for the full list of ACM
+%  classifiers. This section is required.}{}{}
+
+\keywords{\plainkeywords}
+
+%%%%%%%%%%%%%%%%%%%%% INTRODUÇÃO %%%%%%%%%%%%%%%%%%%%%
+\section{Background}
+
+
+
+%\todo --- Explicar processo qualitativo e quali-quantitativo
+%Impacto / Experimentação
+%Impacto / Experimentação
+%Exemplos: cognitivo, emocional, psicomotor
+%Efetividade
+%o que pode usar aqui: correlação, análise de regressão
+%modelo/estratégia/ … avaliação de impacto
+
+% 20/3/2017
+
+% 1. explicar a importancia de jogos para crianças cegas
+% pessoas cegas
+According to the ``Disability Overview'' of the World Bank \cite{theworldbank2016}, one billion people, or 15\% of the world’s population, experience some form of disability. 
+%In addition, the overview shows that one-fifth of the estimated global total, or between 110 million and 190 million people, experience significant disabilities.
+
+
+% crianças cegas
+The last report of ``World Health Organization''\cite{visualimpairmentandblindness_2014}, in 2014,  says 285 million people are estimated to be visually impaired worldwide, of which 39 million are blind. About 90\% of the world's visually impaired live in low-income settings. Furthermore, of this total amount, an estimated 19 million children under age 15 are visually impaired. Of these, 1.4 million are irreversibly blind for the rest of their lives and need visual rehabilitation interventions for a full psychological and personal development. 
+%82\% of people living with blindness are aged 50 and above. Globally, uncorrected refractive errors are the main cause of moderate and severe visual impairment; cataracts remain the leading cause of blindness in middle- and low-income countries. The number of people visually impaired from infectious diseases has reduced in the last 20 years according to global estimates work. 80\% of all visual impairment can be prevented or cured.
+
+
+% dificuldades de crianças cegas no aprendizado
+In the face of this amount, the blind children education has to take into account in the studies to provide a school integration and social inclusion \cite{Sanchez2008}. Visual impairment has a significant impact on individuals’ quality of life, including their ability to work and to develop personal relationships \cite{city11930}.
+
+
+New technologies have been developed to help blind children, as assistive technology, that has a significant role for them \cite{assistivetechnology}. Assistive technology services may include seating and mobility, augmentative and alternative communication, job accommodation or worksite modification, computer access, tools to aid activities of daily living, etc \cite{assistivetechnology2}.
+%which has been standardized in several studies
+
+
+% usando tecnologia!!
+Research supports the notion that technology has to be present in the student learning activities \cite{mandell2002tips} \cite{crane2005teacher}. On-going advances in information technology (IT) are increasing the scope for IT-based mobile assistive technologies \cite{city11930}, that are an option to facilitate the independence, safety, and improved quality of visually impaired life.
+
+
+In this IT-based area, the serious games have been explored as attractive tools for achieving this goal and helping people with visual disabilities to perceive and to interpret the surrounding world \cite{sanchez2015multimodal} \cite{Yuan2008}. With a serious focus, the video game could stimulate and develop various abilities in people with visual impairment. 
+%There are several different experiences with the design and use of video games for stimulating the development of various abilities in people with visual impairment (Yuan, 2009; Yuan & Folmer, 2008).
+
+% falar que existem mts jogos para crianças cegas
+As shown in the mapping study \cite{Sanchez2015}, there are many serious games and virtual environments designed for stimulating the development of various abilities in people with visual impairment. In general, these video games combine different sources of perceptual inputs, as audio and haptics, making us consider the games as "multimodal serious video games". 
+
+
+% 2. mostrar a importancia em se verificar o impacto
+Concern about the impact, assistive technologies for persons with disabilities, as multimodal serious video games, generally employs evidence-based practice (EBP). The EBP meets prescribed criteria related to the research design, quality, quantity, and effect size of supporting research \cite{assistivetechnology} \cite{assistivetechnology2}. As a solution, \textbf{impact evaluation} applies a rigorous and empirical evidence to assure the quality of an IT-based  assistive technology with enhancement purposes, as explained in \cite{darin2015dimensions} with cognitive impact evaluation.
+
+
+
+%occurs by using the  \cite{assistivetechnology} , that  
+%citing the importance of acquiring rigorous, empirical evidence to inform instructional practice
+%Research reveals models of usability for assistive technology in various settings that can be employed to gather evidence.\cite{assistivetechnology}
+% The No Child Left Behind Act requires, however, the use of evidencebased practices based on scientific evidence (Odom et al., 2005). Scientific evidence is empirical evidence; evidence that can be measured, organized, and understood through a specific hierarchy of rigor.
+
+%It is important to point out that both evaluations are necessary to assure the quality of multimodal video games with cognitive enhancement purposes. According to the ISO/IEC 9126 (2001) quality, relates to "[...] all the features of a product or service that exert their abilities to meet the stated or involved needs." It makes clear that usability is an important aspect of the game’s quality. However, without a proper cognitive impact evaluation ofe cannot assure that a particular application can develop or enhance any cognitive skills for people with visual disabilities [27].\cite{darin2015dimensions}
+
+
+Effective impact evaluation should, therefore, be able to assess precisely the mechanisms by which people with visual disabilities are developing or enhancing any skills, e.g. cognitive skills \cite{darin2015dimensions}. The impact evaluation help understands if the intended effects were achieved \cite{khandker2009handbook}. Figure \ref{fig:impact} shows an estimated impact example applied for an economic program.
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.9\columnwidth]{figures/counterfactual}
+  \caption[caption]{Example Impact \cite{khandker2009handbook}}
+  \label{fig:impact}
+\end{figure}
+
+% \caption[caption]{Example Impact \\\hspace{\textwidth}Source:\cite{khandker2009handbook}}
+
+% 3. mostrar que eles nao realizam avaliação do impacto cognitivo (trabalho da Tice)
+% ? - pegar este gap em outro artigo!!!
+
+
+%Evaluated we could evaluate the impact of a multimodal serious game  could  To measure the impact of a technologie, 
+Despite the importance of impact evaluation, Sánchez et al.(2015) \cite{Sanchez2015} shows the cognitive impact evaluation is the second most frequent type of end quality assessment for multimodal video games (50\% among the applications analyzed), performed less often than usability evaluation  (64\% among the applications analyzed). Others types of impact evaluations are not mentioned because there are not broadly applied. The problem when realizing this is: \textit{(i)} how to confirm if the multimodal interfaces are appropriate for cognitive development of people with visual disabilities; and \textit{(i)} how to trust a technology that lacks scientific rigor to assure their quality. 
+
+%Problem: 
+% confirmar com pesquisa itens abaixo:
+% é necessário analisar como o impacto é avaliado em sistemas com interfaces multimodais para pessoas cegas, não há muita pesquisa sobre isso. (gaps encontrados)
+
+In the face of this issue, the overall goal of this study is \textbf{to analyze how is the impact evaluated on systems for people with visual impairment, considering these systems based on multimodal interfaces}. These systems could be mobile applications, computer software, IoT systems among others. We focus on video games, but to augmented our knowledge on how the impact evaluation is applied, we deal with applications and systems with or without gamification. To achieve the primary goal, we establish the next secondary goals.
+
+\begin{itemize}
+    \item To verify if the impact evaluated after designing and developing multimodal systems for people who are blind, and how it is applied;
+    \item To find the most frequently used impact evaluation methods on multimodal interfaces for people who are blind, looking out for their study context areas.
+    \item To determine how the blindness is studied in many study context disciplines
+    \item To check in which study context disciplines the impact evaluation methods are applied.
+    \item To know the types of evaluation impact is addressed.
+\end{itemize}
+
+
+
+% 4. um dos intuitos do mapeamento é verificar se estes trabalhos utilizam outro tipo de impacto / quais tipos
+
+In this context, to summarize the existing evidence concerning the impact evaluation of multimodal systems, also to summarize the empirical evidence of the benefits and limitations of a specific evaluation, we will apply a Systematic Literature Review (SLR)~\cite{keele2007guidelines}. In contrast to an ad hoc literature review, an SLR is a methodologically rigorous review of research results. Also, we aim to identify any gaps in current research to suggest areas for further investigation. Until now, this area is a research gap, and it will be endorsed by the SLR.
+
+This document is a protocol specifies the research question being addressed and the methods that will be used to perform the review. 
+
+ 
+
+%%%%%%%%%%%%%%%%%%%%% METODOLOGIA %%%%%%%%%%%%%%%%%%%%%
+\section{Research Questions}
+% 6. dada a importancia dos jogos multi para crianças cegas e da avaliação do impacto, confirmar a importância desta revisão sistemática, e apresentar as questões de pesquisa
+
+The research questions to be addressed by this study are:
+
+\begin{description}
+    \item [RQ1:] Is the impact evaluated after designing and developing multimodal systems for people who are blind?
+    % systems or interfaces??
+    % or person who is blind / people with visual disabilities 
+    % learners who are blind (para Assets)
+    % games or video games or interfaces?
+    % blind person????
+    \item [RQ2:] What are the most frequently applied impact evaluation methods on multimodal interfaces for people who are blind, and in what study context areas?
+    \item[RQ3:] In which study context disciplines are applied these impact evaluation methods?
+    \item [RQ4:] What type of impact are addressed in these studies context disciplines?
+    % Jaime: pensar sobre retirar ou modificar!
+    %\item [RQ5:] How many articles cover the different areas?
+    
+    
+
+%Which journals include papers on software design?
+% trend in impact evaluation
+%What types of papers are published in the area and in particular what type of evaluation and novelty do they constitute?
+% What are the most investigated object oriented design topics and how have these changed over time?
+
+% Tici's Questions
+% Q1: What strategies have been used for the design of multimodal games for blind learners in order to enhance cognition?
+%Q2: What strategies have been used to evaluate usability and quality of multimodal games for blind learners? 
+%Q3: What technologies have been used for the development of multimodal games for blind learners, in order to enhance cognition?
+
+%inclusion and exclusion criteria
+%exempplo1: Inclusion: books, papers, technical reports and grey literature describing empirical studies regarding object oriented software design. Where several papers reported the same study, only the most recent was included. Where several studies were reported in the same paper, each relevant study was treated separately. Exclusion: Studies that did not report empirical findings or literature that was only available in the form of abstracts or Powerpoint presentations.
+
+%exemplo2: Inclusion: The abstract explicitly mentions variability or variation in the context of software product line engineering. From the abstract, the researcher is able to deduce that the focus of the paper contributes to product line variability research. Exclusion: The paper lies outside the software engineering domain. Variability and variation are not part of the contributions of the paper, the terms are only mentioned in the general introductory sentences of the abstract.
+
+%exemplo3: (F1) consists of removing the duplicated and short papers, filter (F2) consists of the application of the specific purpose exclusion criteria and the inclusion criteria, after the reading of papers title and abstract.F3 consisted of the examination of the full text of the 68 articles and the review of the assigned inclusion and exclusion criteria.
+
+
+\end{description}
+
+\section{Search Process}
+
+The search process is a manual search of specific conference proceedings and journal papers \textbf{since 1998}. The nominated journals and conferences are shown in the following subsection.
+
+\subsection{Sources to be Searched}
+
+The suggested digital libraries as sources are: 
+\begin{itemize}
+    \item ACM Digital Library
+    \item Engineering Village
+    \item IEEE Xplore
+    \item Scopus
+    \item Science Direct
+    \item Springer
+    \item Link
+    \item PubMed
+    \item Web of Science
+    \item Google Scholar
+\end{itemize}
+
+Specific researchers will also be contacted directly:
+Dr. Rossana Andrade
+Dr. Jaime Sánchez
+
+  
+\section{Inclusion criteria}
+Articles on the following topics, published between Jan 1st 1998 and Mars 30th 2017, will be included studies according to the search string addressing the 4 research questions. The year 1998 was a milestone due to the paper Lumbreras et Sánchez (1998) which works with 3D acoustic interfaces for blind children \cite{lumbreras19983d}. Figure \ref{fig:string} shows the research string.
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.95\columnwidth]{figures/string}
+  \caption[caption]{Research String}
+  \label{fig:string}
+\end{figure}
+
+The string will be applied in the metadata of papers, that includes abstract, index terms, and bibliographic citation data (such as document title, publication title, etc.).
+
+
+\section{Exclusion Criteria}
+
+The following types of papers will be excluded
+\begin{itemize}
+    \item Informal literature surveys (no defined research questions, no search process, no defined data extraction or data analysis process).
+    \item Papers not subject to peer-review.
+\end{itemize}
+
+...
+
+\section{Quality Assessment}
+
+...
+
+\section{Data Collection}
+
+The data extracted from each paper will be:
+\begin{itemize}
+    \item The source (i.e. the conference or journal).
+    \item Classification of paper.
+    \item ...
+\end{itemize}
+
+
+\section{Data Analysis}
+...
+
+%%%%%%%%%%%%%%%%%%%%% DI %%%%%%%%%%%%%%%%%%%%%
+
+\section{Dissemination}
+
+The results of the study should be of interest to the software engineering community. For that reason, we plan to report the results on the Internet. The full version of the study will be submitted to IHC Conference 2017.
+
+% traçar o panorama da experiência de mobilidade urbana no Brasil
+% REFERENCES FORMAT
+% References must be the same font size as other body text.
+
+%\section{Agradecimentos}
+%Agradecemos ao projeto “X”, financiado pelo CNPq (MCT/CNPq 14/2013 – ) com o número 484380/2013-3. Também agradecemos a todas as pessoas que, com muita boa vontade, participaram das avaliações.
+
+\bibliographystyle{SIGCHI-Reference-Format}
+\bibliography{sample}
+
+\end{document}
